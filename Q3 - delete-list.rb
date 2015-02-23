@@ -45,12 +45,11 @@
 #
 
 
-
 class ListNode
   attr_accessor :value, :nextnode
   def initialize (value, nextnode)
-	  @value = value
-	  @nextnode = nextnode
+    @value = value
+    @nextnode = nextnode
   end
 end
  
