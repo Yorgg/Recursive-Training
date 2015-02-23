@@ -54,11 +54,7 @@ class ListNode
 end
 
 def append_list (list1, list2)
-  if list1.nextnode.nil?
-    list1.nextnode = list2 
-    return
-  end
-  append_list(list1.nextnode, list2)
+  list1.nextnode.nil? ? list2 : append_list(list1.nextnode, list2)
 end
 
 def print_list (list)
@@ -72,4 +68,3 @@ list2 = ListNode.new(3, ListNode.new(4, nil))
 
 append_list(list1, list2)
 p print_list(list1)
- 
