@@ -1,7 +1,7 @@
 =begin
 
   Delete value from Linked List
-  1) Using recursion, find and delete a value from a sorted linked list.
+  1) Using recursion, find and delete a value from a linked list.
   2) Print the values of each node of your list.
 
   Example:
@@ -49,8 +49,8 @@
 class ListNode
   attr_accessor :value, :nextnode
   def initialize (value, nextnode)
-	@value = value
-	@nextnode = nextnode
+	  @value = value
+	  @nextnode = nextnode
   end
 end
  
