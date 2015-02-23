@@ -1,3 +1,50 @@
+=begin
+
+  Delete value from Linked List
+  1) Using recursion, find and delete a value from a sorted linked list.
+  2) Print the values of each node of your list.
+
+  Example:
+  list = ListNode.new(1, ListNode.new(4, nil))
+  value = 1
+  => ListNode.new(4, nil)
+  => 4, nil
+
+  Learn about linked lists: http://en.wikipedia.org/wiki/Linked_list
+  
+  (Solution below in Ruby)
+
+=end
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#  
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
 
 class ListNode
   attr_accessor :value, :nextnode
@@ -21,8 +68,7 @@ end
 
 list = ListNode.new(0, ListNode.new(2, ListNode.new(6, ListNode.new(1, nil))))
 
-list = delete_list(list, 1) 
-p print_list(list)
-
+newlist = delete_list(list, 6) 
+p print_list(newlist)
  
  
