@@ -1,3 +1,4 @@
 
 Recursive programming questions for beginners. 
-I included my solutions,in Ruby, within each file. 
+Solutions are provided (in Ruby) within each file.
+Question difficulty is sorted in ascending order. 
