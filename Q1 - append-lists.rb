@@ -44,6 +44,13 @@
 #
 #
 
+class ListNode
+  attr_accessor :value, :nextnode
+  def initialize (value, nextnode)
+    @value = value
+    @nextnode = nextnode
+  end
+end
 
 class ListNode
   attr_accessor :value, :nextnode
@@ -53,8 +60,9 @@ class ListNode
   end
 end
 
+# Works only for non empty (non-nil) linked lists. Don't use return value.
 def append_list (list1, list2)
-  list1.nextnode.nil? ? list2 : append_list(list1.nextnode, list2)
+  list1.nextnode.nil? ? list1.nextnode = list2 : append_list(list1.nextnode, list2)
 end
 
 def print_list (list)
@@ -67,4 +75,4 @@ list1 = ListNode.new(1, ListNode.new(2, nil))
 list2 = ListNode.new(3, ListNode.new(4, nil))
 
 append_list(list1, list2)
-p print_list(list1)
+print_list(list1)
