@@ -1,4 +1,52 @@
 
+=begin
+  Check if tree is same! 
+  1) Using recursion, check if two trees are the same
+  2) Return true / false
+
+  Each node in the Tree should initialize with:
+  @value
+  @left_node
+  @right_node
+
+  Example:
+  list1 = ListNode.new(1, ListNode.new(2, nil))
+  list2 = ListNode.new(1, ListNode.new(4, nil))
+  => false
+   
+  (Solution below in Ruby)
+=end
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#  
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+ 
+
 class Tree
   attr_accessor :value, :left, :right
   def initialize(value, left, right)
