@@ -10,8 +10,11 @@
   @right_node
 
   Example:
-  list1 = ListNode.new(1, ListNode.new(2, nil))
-  list2 = ListNode.new(1, ListNode.new(4, nil))
+
+  tree = Tree.new(1, nil, Tree.new(3, nil, nil))
+  tree2 = Tree.new(1, nil, Tree.new(2, nil, nil))
+
+  puts tree_same(tree, tree2)
   => false
    
   (Solution below in Ruby)
